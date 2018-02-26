@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.3 on win32)" generated="20180213 16:10:35.629">
+<suite id="s1" name="ManualFileUpload" source="C:\Users\yhailu\PycharmProjects\DataPrep\ManualFileUpload.robot">
+<test id="s1-t1" name="Setup Test">
+<kw name="setup test">
+<msg timestamp="20180213 16:10:36.242" level="FAIL">No keyword with name 'setup test' found.</msg>
+<status status="FAIL" starttime="20180213 16:10:36.242" endtime="20180213 16:10:36.242"></status>
+</kw>
+<status status="FAIL" starttime="20180213 16:10:36.234" endtime="20180213 16:10:36.244" critical="yes">No keyword with name 'setup test' found.</status>
+</test>
+<test id="s1-t2" name="Launch VE">
+<kw name="launch URL">
+<arguments>
+<arg>${SiteUrl}</arg>
+</arguments>
+<msg timestamp="20180213 16:10:36.258" level="FAIL">No keyword with name 'launch URL' found.</msg>
+<status status="FAIL" starttime="20180213 16:10:36.258" endtime="20180213 16:10:36.259"></status>
+</kw>
+<status status="FAIL" starttime="20180213 16:10:36.250" endtime="20180213 16:10:36.260" critical="yes">No keyword with name 'launch URL' found.</status>
+</test>
+<test id="s1-t3" name="Login">
+<kw name="login with parameters">
+<arguments>
+<arg>vedemo</arg>
+<arg>iL0veTax</arg>
+</arguments>
+<msg timestamp="20180213 16:10:36.276" level="FAIL">No keyword with name 'login with parameters' found.</msg>
+<status status="FAIL" starttime="20180213 16:10:36.276" endtime="20180213 16:10:36.276"></status>
+</kw>
+<status status="FAIL" starttime="20180213 16:10:36.268" endtime="20180213 16:10:36.278" critical="yes">No keyword with name 'login with parameters' found.</status>
+</test>
+<test id="s1-t4" name="Manual File Upload">
+<kw name="manual file upload">
+<arguments>
+<arg>C:/Test Files/Main Files/DatatypesEXT.csv</arg>
+</arguments>
+<msg timestamp="20180213 16:10:36.293" level="FAIL">No keyword with name 'manual file upload' found.</msg>
+<status status="FAIL" starttime="20180213 16:10:36.293" endtime="20180213 16:10:36.294"></status>
+</kw>
+<status status="FAIL" starttime="20180213 16:10:36.285" endtime="20180213 16:10:36.295" critical="yes">No keyword with name 'manual file upload' found.</status>
+</test>
+<test id="s1-t5" name="Close browser and Driver">
+<kw name="close driver browser">
+<msg timestamp="20180213 16:10:36.311" level="FAIL">No keyword with name 'close driver browser' found.</msg>
+<status status="FAIL" starttime="20180213 16:10:36.310" endtime="20180213 16:10:36.311"></status>
+</kw>
+<status status="FAIL" starttime="20180213 16:10:36.302" endtime="20180213 16:10:36.313" critical="yes">No keyword with name 'close driver browser' found.</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20180213 16:10:35.648" endtime="20180213 16:10:36.321"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="5">Critical Tests</stat>
+<stat pass="0" fail="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="5" id="s1" name="ManualFileUpload">ManualFileUpload</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180213 16:10:36.224" level="ERROR">Error in file 'C:\Users\yhailu\PycharmProjects\DataPrep\ManualFileUpload.robot': Importing test library 'keywords.manualFileUpload' failed: ModuleNotFoundError: No module named 'pyautogui'
+Traceback (most recent call last):
+  File "C:\Users\yhailu\PycharmProjects\DataPrep\keywords.py", line 1, in &lt;module&gt;
+    from Regression.AdHocQueries import AdHocQueries
+  File "C:\Users\yhailu\PycharmProjects\DataPrep\Regression\AdHocQueries.py", line 10, in &lt;module&gt;
+    import pyautogui
+PYTHONPATH:
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\python36.zip
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\DLLs
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\lib
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\lib\site-packages
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\lib\site-packages\win32
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\lib\site-packages\win32\lib
+  C:\Users\yhailu\AppData\Local\Continuum\Anaconda3\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
